@@ -1,6 +1,7 @@
 * {
   color: white;
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box !important;
 }
 
 a, a:hover {
@@ -9,6 +10,8 @@ a, a:hover {
 }
 body {
   background-color: #201c35;
+  height: fit-content;
+  overflow-x: hidden;
 }
 
 .section-title {
@@ -18,8 +21,13 @@ body {
   margin: 1.5rem;
 }
 
-header {
-  margin: 0px;
+.button {
+  background-color: #ff4655;
+  border: 3px solid white;
+  border-radius: 9px 9px;
+  padding: 0.625rem 3.125rem 0.625rem 3.125rem;
+  letter-spacing: 7px;
+  font-size: 1.2em;
 }
 
 .header {
@@ -42,6 +50,39 @@ header {
   font-size: 3rem;
   font-weight: 600;
   letter-spacing: 1rem;
+}
+
+.index_agentes {
+  border-bottom: 5px solid #ff4655;
+}
+
+.paragraph {
+  height: fit-content;
+  background-color: #282343;
+  border: 5px solid #ff4655;
+  border-radius: 10px 0px 10px 0px;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 3rem;
+}
+
+.img_adjust--agentesIndex {
+  height: 60vh;
+  width: auto;
+}
+
+.imgAdjust--logoIndexAgente {
+  width: 10rem;
+  height: auto;
+  background-color: #282343;
+  border-bottom: 4px solid #ff4655;
+  padding: 1.25rem;
+}
+.imgAdjust--logoIndexAgente:hover {
+  transform: scale(1.4);
+  background-color: #ff4655;
+  transition: 0.5s ease-in-out;
 }
 
 /*# sourceMappingURL=styles.css.map */
