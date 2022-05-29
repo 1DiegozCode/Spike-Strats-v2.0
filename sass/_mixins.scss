@@ -1,0 +1,6 @@
+@use "variables";
+
+@mixin red-border-bottom{
+    border-bottom: 5px solid variables.$palette-red
+}
+

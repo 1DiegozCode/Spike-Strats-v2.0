@@ -1,0 +1,27 @@
+@use "variables";
+
+*{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    &:hover{
+        @extend a
+    }
+}
+
+body{
+    background-color: variables.$palette-dark-blue;
+}
+
+.section-title{
+
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    margin: 1.5rem;
+}
+

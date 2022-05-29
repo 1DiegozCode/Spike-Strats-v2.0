@@ -1,0 +1,17 @@
+@use "variables";
+@use "mixins";
+
+
+header{
+    margin: 0px;
+}
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    @include mixins.red-border-bottom;
+    h1{
+        font-weight: 700;
+        font-style: italic;
+    }
+}

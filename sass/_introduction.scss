@@ -1,0 +1,14 @@
+@use "variables";
+@use "mixins";
+
+
+.introduction{
+    width: 100vw;
+    height: 50vh;
+    @include mixins.red-border-bottom;
+    p{
+        font-size: 3rem;
+        font-weight: 600;
+        letter-spacing: 1rem;
+    }
+}
