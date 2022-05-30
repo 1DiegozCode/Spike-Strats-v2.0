@@ -1,4 +1,5 @@
 @use "variables";
+@use "mixins";
 
 *{
     color: white;
@@ -53,3 +54,6 @@ body{
     }
 }
 
+.red_border_bottom{
+    @include mixins.red-border-bottom
+}

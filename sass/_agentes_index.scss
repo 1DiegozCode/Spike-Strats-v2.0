@@ -1,9 +1,6 @@
 @use "variables";
 @use "mixins";
 
-.index_agentes{
-    @include mixins.red-border-bottom
-}
 
 .havenImg{
     height: 45vh;
