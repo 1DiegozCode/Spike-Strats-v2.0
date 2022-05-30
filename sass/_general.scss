@@ -57,3 +57,7 @@ body{
 .red_border_bottom{
     @include mixins.red-border-bottom
 }
+
+li{
+    list-style: none;
+}

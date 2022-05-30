@@ -51,6 +51,10 @@ body {
   border-bottom: 5px solid #ff4655;
 }
 
+li {
+  list-style: none;
+}
+
 .header {
   width: 100vw;
   height: 10vh;
@@ -161,6 +165,21 @@ body {
   height: auto;
   width: 100%;
   border-bottom: 5px solid #ff4655;
+}
+
+.footer {
+  height: 25vh;
+  background-color: #262b28;
+}
+.footer h2 {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.social_icon {
+  height: 1.25rem;
+  width: auto;
+  margin: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,18 @@
+@use "variables";
+@use "mixins";
+
+
+.footer{
+    height: 25vh;
+    background-color: variables.$palette-grey;
+    h2{
+        font-weight: 700;
+        font-style: italic;
+    }
+}
+
+.social_icon{
+    height: 1.25rem;
+    width: auto;
+    margin: 5px;
+}
