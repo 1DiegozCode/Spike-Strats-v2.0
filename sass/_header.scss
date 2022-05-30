@@ -12,3 +12,16 @@
         font-style: italic;
     }
 }
+
+.link__nav{
+    text-decoration: none;
+    background-image: linear-gradient(#ff4655,#ff4655 );
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    &:hover{
+        background-size: 100% 2px;
+        color: #ff4655 !important;
+    }
+}

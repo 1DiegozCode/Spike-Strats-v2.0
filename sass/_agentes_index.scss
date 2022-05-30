@@ -4,19 +4,15 @@
 .index_agentes{
     @include mixins.red-border-bottom
 }
-.paragraph{
-    height: fit-content;
-    background-color: variables.$palette-blue;
-    border: 5px solid variables.$palette-red;
-    border-radius: 10px 0px 10px 0px;
-    text-align: center;
-    font-size: 1.7rem;
-    font-weight: 500;
-    padding: 3rem;
+
+.havenImg{
+    height: 45vh;
+    width: auto;
+    border: 0.9375rem solid #282343;
 }
 
 .img_adjust--agentesIndex{
-    height: 60vh;
+    height: 30rem;
     width: auto;
 }
 

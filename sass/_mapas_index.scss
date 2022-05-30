@@ -1,0 +1,42 @@
+@use "variables";
+@use "mixins";
+
+.img_adjust--mapasIndex{
+    height: 20rem;
+    width: auto;
+    border: 0.9375rem solid #282343;
+}
+.carousel_decoration{
+    border: 1rem solid variables.$palette-blue;
+}
+
+.carousel__div{
+    height: 31.6rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(50, 50, 50, 20);
+    background-blend-mode: soft-light;
+    &--bind{
+        @extend .carousel__div;
+        background-image: url(../assets/index/bind_logo.jpg) ;
+    }
+    &--haven{
+        @extend .carousel__div;
+        background-image: url(../assets/index/haven_logo2.jpg) ;
+    }
+    &--ascent{
+        @extend .carousel__div;
+        background-image: url(../assets/index/ascent_logo.jpg) ;
+    }
+    &--split{
+        @extend .carousel__div;
+        background-image: url(../assets/index/split_logo.jpg) ;
+    }
+}
+
+.carousel_text{
+    font-size: 8rem;
+    font-weight: 700;
+}
