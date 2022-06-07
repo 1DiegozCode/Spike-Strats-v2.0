@@ -87,9 +87,19 @@ li {
   color: black !important;
   transition: ease-in-out 0.3s;
 }
+@media (min-width: 0px) and (max-width: 576px) {
+  .header h1 {
+    font-size: 3.2rem;
+  }
+}
 .header h1:hover {
   text-shadow: -1px 1px 0 #ff4655, 1px 1px 0 #ff4655, 1px -1px 0 #ff4655, -1px -1px 0 #ff4655;
   color: black !important;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  .header a {
+    font-size: 1.2rem;
+  }
 }
 
 .link__nav {
