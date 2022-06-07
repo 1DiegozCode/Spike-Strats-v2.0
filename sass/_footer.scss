@@ -3,11 +3,14 @@
 
 
 .footer{
-    height: 25vh;
+    height: 12rem;
     background-color: variables.$palette-grey;
     h2{
         font-weight: 700;
         font-style: italic;
+        @media (min-width: 0px) and (max-width: 576px){
+            font-size: 2.5rem ;
+        }
     }
 }
 

@@ -5,16 +5,22 @@
 
 .noticias_paragraph{
     background-color: variables.$palette-blue;
-    height: 10em;
+    height: 11em;
     border: 1px solid variables.$palette-red;
     text-align: justify;
     padding: 1.5625rem;
     font-size: 1.2rem;
     font-weight: 100;
+    @media (min-width: 0px) and (max-width: 576px){
+        font-size: 1.4rem;
+    }
 }
 
 .img_adjust--noticiasIndex{
     height: auto;
     width: 100%;
     border-bottom: 5px solid variables.$palette-red;
+    @media (min-width: 0px) and (max-width: 576px){
+        display: none;
+    }
 }
