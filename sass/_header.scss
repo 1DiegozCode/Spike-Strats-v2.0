@@ -10,18 +10,32 @@
     h1{
         font-weight: 700;
         font-style: italic;
+        font-size: 2.8rem;
+        text-shadow: -1px 1px 0 white,
+        1px 1px 0 white,
+        1px -1px 0 white,
+        -1px -1px 0 white;
+        color: black !important;
+        transition: ease-in-out 0.3s;
+        &:hover{
+            text-shadow: -1px 1px 0 variables.$palette-red,
+            1px 1px 0 variables.$palette-red,
+            1px -1px 0 variables.$palette-red,
+            -1px -1px 0 variables.$palette-red;
+            color: black !important;
+        }
     }
 }
 
 .link__nav{
     text-decoration: none;
-    background-image: linear-gradient(#ff4655,#ff4655 );
+    background-image: linear-gradient(variables.$palette-red,variables.$palette-red );
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
     &:hover{
         background-size: 100% 2px;
-        color: #ff4655 !important;
+        color: variables.$palette-red !important;
     }
 }

@@ -2,12 +2,6 @@
 @use "mixins";
 
 
-.havenImg{
-    height: 45vh;
-    width: auto;
-    border: 0.9375rem solid #282343;
-}
-
 .img_adjust--agentesIndex{
     height: 30rem;
     width: auto;
@@ -19,12 +13,12 @@
 .imgAdjust--logoIndexAgente {
     width: 8rem;
     height: auto;
-    background-color: #282343;
-    border-bottom: 4px solid #ff4655;
+    background-color: variables.$palette-blue;
+    border-bottom: 4px solid variables.$palette-red;
     padding: 1.25rem;
     &:hover{
         transform: scale(1.4);
-        background-color: #ff4655;
+        background-color: variables.$palette-red;
         transition: .5s ease-in-out;
     }
 }
