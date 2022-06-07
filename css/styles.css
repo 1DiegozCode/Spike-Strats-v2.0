@@ -95,9 +95,44 @@ li {
   border-bottom: 5px solid #ff4655;
 }
 .introduction p {
+  position: relative;
+  z-index: 5;
   font-size: 3rem;
   font-weight: 600;
   letter-spacing: 1rem;
+}
+
+.intro_section {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 5px solid #ff4655;
+}
+.intro_section video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: 1;
 }
 
 .havenImg {
