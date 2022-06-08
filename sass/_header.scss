@@ -7,7 +7,7 @@
     height: 10vh;
     background-color: black;
     @include mixins.red-border-bottom;
-    h1{
+    h2{
         font-weight: 700;
         font-style: italic;
         font-size: 2.8rem;
@@ -29,8 +29,11 @@
         }
     }
     a{
-        @media (min-width: 0px) and (max-width: 576px){
+        @media (min-width:576px) and (max-width: 768px){
             font-size: 1.2rem;
+        }
+        @media (min-width: 0px) and (max-width: 576px){
+            font-size: 1.4rem;
         }
     }
 }

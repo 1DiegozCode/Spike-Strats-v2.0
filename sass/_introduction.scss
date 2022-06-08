@@ -6,7 +6,7 @@
     width: 100vw;
     height: 30rem;
     @include mixins.red-border-bottom;
-    p{
+    h1{
         position: relative;
         z-index: 5;
         font-size: 3rem;
