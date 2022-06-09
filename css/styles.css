@@ -55,6 +55,7 @@ section {
   padding: 0.625rem 3.125rem 0.625rem 3.125rem;
   letter-spacing: 7px;
   font-size: 1.2em;
+  font-weight: 700;
   transition: ease-in-out 0.3s;
   box-shadow: 5px 5px 80px rgba(0, 0, 0, 0.504), -5px -5px 80px rgba(0, 0, 0, 0.504);
 }
@@ -129,7 +130,7 @@ li {
   position: relative;
   z-index: 5;
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 1rem;
 }
 
@@ -270,6 +271,8 @@ li {
 .footer {
   height: 12rem;
   background-color: #262b28;
+  -webkit-box-shadow: inset -4px -3px 50px 0px rgba(0, 0, 0, 0.6745098039);
+  box-shadow: inset -4px -3px 50px 0px rgba(0, 0, 0, 0.6745098039);
 }
 .footer h2 {
   font-weight: 700;

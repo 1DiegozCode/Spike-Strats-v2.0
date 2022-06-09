@@ -5,6 +5,8 @@
 .footer{
     height: 12rem;
     background-color: variables.$palette-grey;
+    -webkit-box-shadow: inset -4px -3px 50px 0px #000000ac; 
+    box-shadow: inset -4px -3px 50px 0px #000000ac;
     h2{
         font-weight: 700;
         font-style: italic;
