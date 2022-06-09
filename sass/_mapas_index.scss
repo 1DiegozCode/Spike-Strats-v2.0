@@ -1,6 +1,7 @@
 @use "variables";
 @use "mixins";
 
+
 .img_adjust--mapasIndex{
     height: 18rem;
     width: auto;
@@ -12,6 +13,7 @@
         display: none;
     }
 }
+
 .carousel_decoration{
     border: 1rem solid variables.$palette-blue;
 }
@@ -44,5 +46,5 @@
 
 .carousel_text{
     font-size: 6rem;
-    font-weight: 700;
+    font-weight: 900;
 }

@@ -1,0 +1,50 @@
+@use "variables";
+@use "mixins";
+
+
+.carousel__div--mapasPage{
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(50, 50, 50, 20);
+    background-blend-mode: soft-light;
+    &--bind{
+        @extend .carousel__div--mapasPage;
+        background-image: url(../assets/index/bind_logo.jpg) ;
+    }
+    &--haven{
+        @extend .carousel__div--mapasPage;
+        background-image: url(../assets/index/haven_logo2.jpg) ;
+    }
+    &--ascent{
+        @extend .carousel__div--mapasPage;
+        background-image: url(../assets/index/ascent_logo.jpg) ;
+    }
+    &--split{
+        @extend .carousel__div--mapasPage;
+        background-image: url(../assets/index/split_logo.jpg) ;
+    }
+}
+
+.carousel_text--page{
+    font-size: 12rem;
+    font-weight: 900;
+    text-decoration: none;
+    background-image: linear-gradient(variables.$palette-red,variables.$palette-red );
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    &:hover{
+        background-size: 100% 2px;
+        color: variables.$palette-red !important;
+    }
+}
+
+.paragraph--mapasPage{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
