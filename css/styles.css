@@ -363,4 +363,54 @@ li {
   font-weight: 100;
 }
 
+.background--login {
+  height: 100vh;
+}
+
+.background__card {
+  background-color: #282343;
+}
+
+.background__input {
+  background-color: #201c35;
+  border-color: #201c35;
+}
+
+.imgAdjust__loginLogo {
+  height: 12rem;
+  width: auto;
+}
+
+.caja_login {
+  background-color: #282343;
+  height: 70vh;
+}
+
+.login_title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.login_submit {
+  font-size: 2rem;
+}
+
+.login_logo {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2.8rem;
+  text-shadow: -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white;
+  color: black !important;
+  transition: ease-in-out 0.3s;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  .login_logo {
+    font-size: 3.2rem;
+  }
+}
+.login_logo:hover {
+  text-shadow: -1px 1px 0 #ff4655, 1px 1px 0 #ff4655, 1px -1px 0 #ff4655, -1px -1px 0 #ff4655;
+  color: black !important;
+}
+
 /*# sourceMappingURL=styles.css.map */

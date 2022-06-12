@@ -1,0 +1,57 @@
+@use "variables";
+@use "mixins";
+
+.background--login{
+    height: 100vh;
+}
+
+.background__card{
+    background-color: variables.$palette-blue;
+}
+
+.background__input{
+    background-color: variables.$palette-dark-blue;
+    border-color: variables.$palette-dark-blue;
+}
+
+.imgAdjust__loginLogo{
+    height: 12rem;
+    width: auto;
+}
+
+.caja_login{
+    background-color: variables.$palette-blue;
+    height: 70vh;
+    
+}
+
+.login_title{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.login_submit{
+    font-size: 2rem;
+}
+
+.login_logo{
+    font-weight: 700;
+        font-style: italic;
+        font-size: 2.8rem;
+        text-shadow: -1px 1px 0 white,
+        1px 1px 0 white,
+        1px -1px 0 white,
+        -1px -1px 0 white;
+        color: black !important;
+        transition: ease-in-out 0.3s;
+        @media (min-width: 0px) and (max-width: 576px){
+            font-size: 3.2rem;
+        }
+        &:hover{
+            text-shadow: -1px 1px 0 variables.$palette-red,
+            1px 1px 0 variables.$palette-red,
+            1px -1px 0 variables.$palette-red,
+            -1px -1px 0 variables.$palette-red;
+            color: black !important;
+            }
+}
