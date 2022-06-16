@@ -124,6 +124,7 @@ li {
 .introduction {
   width: 100vw;
   height: 30rem;
+  text-align: center;
   border-bottom: 5px solid #ff4655;
 }
 .introduction h1 {
@@ -165,6 +166,40 @@ li {
   background-color: black;
   opacity: 0.6;
   z-index: 1;
+}
+
+.typeWriter {
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 28ch;
+  margin-left: auto;
+  margin-right: auto;
+  animation: typing 2s steps(28), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  .typeWriter {
+    width: 25ch;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.typeWriter-help {
+  display: none;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  .typeWriter-help {
+    display: block;
+  }
 }
 
 .img_adjust--agentesIndex {
