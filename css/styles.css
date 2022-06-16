@@ -448,4 +448,19 @@ li {
   color: black !important;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #201c35;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(211, 208, 208);
+  border-radius: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */
