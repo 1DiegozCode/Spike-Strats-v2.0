@@ -7,17 +7,35 @@
     background-color: variables.$palette-grey;
     -webkit-box-shadow: inset -4px -3px 50px 0px #000000ac; 
     box-shadow: inset -4px -3px 50px 0px #000000ac;
+    @media (min-width: 0px) and (max-width: 576px){
+        height: 20rem;
+    }
     h2{
         font-weight: 700;
         font-style: italic;
         @media (min-width: 0px) and (max-width: 576px){
-            font-size: 2.5rem ;
+            font-size: 3.2rem ;
+        }
+    }
+    h6{
+        @media (min-width: 0px) and (max-width: 576px){
+            font-size: 1.3rem ;
+        }
+    }
+    ul{
+        @media (min-width: 0px) and (max-width: 576px){
+            font-size: 1.8rem ;
+            margin-left: 5px;
+            line-height: 30px;
         }
     }
 }
 
 .social_icon{
-    height: 1.25rem;
+    height: 1.6rem;
     width: auto;
     margin: 5px;
+    @media (min-width: 0px) and (max-width: 576px){
+        height: 2.5rem
+    }
 }
